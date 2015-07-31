@@ -1,0 +1,86 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 314 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 154926 0 0
+ciMethod java/lang/Object hashCode ()I 2049 1 256 0 -1
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 2161 1 7982 0 -1
+ciMethod java/lang/ref/Reference get ()Ljava/lang/Object; 1113 1 139 0 -1
+ciMethod java/lang/ref/Reference <init> (Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V 2049 1 10425 0 0
+ciMethod java/lang/ref/WeakReference <init> (Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V 2057 1 2969 0 0
+ciMethod java/util/Map put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/lang/ref/ReferenceQueue reallyPoll ()Ljava/lang/ref/Reference; 9 1 5130 0 -1
+ciMethod java/lang/ref/ReferenceQueue poll ()Ljava/lang/ref/Reference; 2081 1 9674 0 0
+ciMethod sun/misc/VM addFinalRefCount (I)V 385 1 48 0 -1
+ciMethod java/util/AbstractMap <init> ()V 3073 1 3192 0 0
+ciMethod java/util/WeakHashMap maskNull (Ljava/lang/Object;)Ljava/lang/Object; 3073 1 2974 0 0
+ciMethod java/util/WeakHashMap eq (Ljava/lang/Object;Ljava/lang/Object;)Z 1081 1 135 0 -1
+ciMethod java/util/WeakHashMap hash (Ljava/lang/Object;)I 3073 1 2974 0 0
+ciMethod java/util/WeakHashMap indexFor (II)I 2057 1 5711 0 0
+ciMethod java/util/WeakHashMap expungeStaleEntries ()V 2081 305 2996 0 0
+ciMethod java/util/WeakHashMap getTable ()[Ljava/util/WeakHashMap$Entry; 2169 1 2983 0 0
+ciMethod java/util/WeakHashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 2049 617 2734 0 0
+ciMethod java/util/WeakHashMap resize (I)V 73 1 9 0 -1
+ciMethod java/lang/Enum ordinal ()I 1025 1 128 0 0
+ciMethodData java/lang/Object <init> ()V 2 154926 orig 264 136 112 69 94 0 0 0 0 112 4 199 22 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 113 217 18 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/WeakHashMap$Entry <init> (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;ILjava/util/WeakHashMap$Entry;)V 1929 1 2719 0 0
+ciMethod java/util/concurrent/ConcurrentHashMap spread (I)I 2065 1 5077 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap tableSizeFor (I)I 2049 1 2699 0 0
+ciMethod java/util/concurrent/ConcurrentHashMap tabAt ([Ljava/util/concurrent/ConcurrentHashMap$Node;I)Ljava/util/concurrent/ConcurrentHashMap$Node; 3121 1 7314 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap casTabAt ([Ljava/util/concurrent/ConcurrentHashMap$Node;ILjava/util/concurrent/ConcurrentHashMap$Node;Ljava/util/concurrent/ConcurrentHashMap$Node;)Z 2321 1 3475 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap <init> (I)V 2049 1 2696 0 0
+ciMethod java/util/concurrent/ConcurrentHashMap get (Ljava/lang/Object;)Ljava/lang/Object; 2089 57 1537 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 2049 1 2952 0 0
+ciMethod java/util/concurrent/ConcurrentHashMap putVal (Ljava/lang/Object;Ljava/lang/Object;Z)Ljava/lang/Object; 2281 817 3487 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap initTable ()[Ljava/util/concurrent/ConcurrentHashMap$Node; 105 1 2737 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap addCount (JI)V 2089 65 3393 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap helpTransfer ([Ljava/util/concurrent/ConcurrentHashMap$Node;Ljava/util/concurrent/ConcurrentHashMap$Node;)[Ljava/util/concurrent/ConcurrentHashMap$Node; 0 0 1 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap treeifyBin ([Ljava/util/concurrent/ConcurrentHashMap$Node;I)V 0 0 1 0 -1
+ciMethod java/util/concurrent/ConcurrentHashMap$Node <init> (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/concurrent/ConcurrentHashMap$Node;)V 3073 1 3439 0 -1
+ciMethod sun/util/logging/PlatformLogger isLoggable (Lsun/util/logging/PlatformLogger$Level;)Z 2081 1 5380 0 288
+ciMethod sun/util/logging/PlatformLogger fine (Ljava/lang/String;)V 49 1 6 0 -1
+ciMethod sun/util/logging/PlatformLogger$Level intValue ()I 2113 1 10764 0 0
+ciMethod sun/util/logging/PlatformLogger$DefaultLoggerProxy isLoggable (Lsun/util/logging/PlatformLogger$Level;)Z 2081 1 5382 0 192
+ciMethod sun/util/logging/PlatformLogger$LoggerProxy isLoggable (Lsun/util/logging/PlatformLogger$Level;)Z 0 0 1 0 -1
+ciMethod sun/util/logging/PlatformLogger$JavaLoggerProxy isLoggable (Lsun/util/logging/PlatformLogger$Level;)Z 0 0 1 0 -1
+ciMethod java/awt/GraphicsEnvironment getLocalGraphicsEnvironment ()Ljava/awt/GraphicsEnvironment; 2049 1 5390 0 0
+ciMethod java/awt/GraphicsEnvironment createGE ()Ljava/awt/GraphicsEnvironment; 9 1 1 0 -1
+ciMethod java/util/Collections$SynchronizedMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 2049 1 2706 0 0
+ciMethod java/awt/Image getAccelerationPriority ()F 937 1 5380 0 0
+ciMethod java/awt/image/BufferedImage getType ()I 1025 1 128 0 -1
+ciMethod java/awt/image/BufferedImage getColorModel ()Ljava/awt/image/ColorModel; 1025 1 128 0 -1
+ciMethod java/awt/image/BufferedImage getRaster ()Ljava/awt/image/WritableRaster; 1025 1 128 0 -1
+ciMethod sun/java2d/SunGraphicsEnvironment addDisplayChangedListener (Lsun/awt/DisplayChangedListener;)V 2049 1 2692 0 0
+ciMethod sun/java2d/SurfaceData getSourceSurfaceData (Ljava/awt/Image;ILsun/java2d/loops/CompositeType;Ljava/awt/Color;)Lsun/java2d/SurfaceData; 2049 1 5376 0 -1
+ciMethod sun/java2d/SurfaceData makeProxyFor (Lsun/java2d/SurfaceData;)Lsun/java2d/SurfaceDataProxy; 0 0 1 0 -1
+ciMethod sun/java2d/SurfaceData getState ()Lsun/java2d/StateTrackable$State; 1049 1 2691 0 0
+ciMethod sun/java2d/SurfaceData getStateTracker ()Lsun/java2d/StateTracker; 2049 1 8080 0 -1
+ciMethod sun/java2d/SurfaceData isValid ()Z 1089 1 136 0 -1
+ciMethod sun/java2d/SurfaceData getColorModel ()Ljava/awt/image/ColorModel; 1033 1 129 0 0
+ciMethod sun/java2d/SurfaceData getTransparency ()I 2057 1 10838 0 0
+ciMethod sun/java2d/SurfaceData getBounds ()Ljava/awt/Rectangle; 0 0 1 0 -1
+ciMethod sun/java2d/SurfaceData isOpaqueGray (Ljava/awt/image/IndexColorModel;)Z 0 0 1 0 -1
+ciMethod java/awt/image/ColorModel getTransparency ()I 1025 1 128 0 0
+ciMethod java/awt/image/DirectColorModel getRedMask ()I 289 1 36 0 -1
+ciMethod java/awt/image/DirectColorModel getGreenMask ()I 177 1 22 0 -1
+ciMethod java/awt/image/DirectColorModel getBlueMask ()I 177 1 22 0 -1
+ciMethod java/awt/image/DirectColorModel getAlphaMask ()I 33 1 4 0 -1
+ciMethod sun/java2d/StateTrackableDelegate getState ()Lsun/java2d/StateTrackable$State; 1025 1 128 0 0
+ciMethod java/awt/Image$1 getSurfaceManager (Ljava/awt/Image;)Lsun/awt/image/SurfaceManager; 2057 1 1281 0 0
+ciMethod java/awt/Image$1 setSurfaceManager (Ljava/awt/Image;Lsun/awt/image/SurfaceManager;)V 2049 1 1280 0 0
+ciMethod sun/awt/image/SurfaceManager$ImageAccessor getSurfaceManager (Ljava/awt/Image;)Lsun/awt/image/SurfaceManager; 0 0 1 0 -1
+ciMethod sun/awt/image/SurfaceManager$ImageAccessor setSurfaceManager (Ljava/awt/Image;Lsun/awt/image/SurfaceManager;)V 0 0 1 0 -1
+ciMethod sun/awt/image/SurfaceManager <init> ()V 625 1 1784 0 0
+ciMethod sun/awt/image/SurfaceManager getManager (Ljava/awt/Image;)Lsun/awt/image/SurfaceManager; 2049 1 5376 0 448
+ciMethod sun/awt/image/SurfaceManager setManager (Ljava/awt/Image;Lsun/awt/image/SurfaceManager;)V 625 1 1784 0 0
+ciMethod sun/awt/image/SurfaceManager getCacheData (Ljava/lang/Object;)Ljava/lang/Object; 1369 1 2731 0 0
+ciMethod sun/awt/image/SurfaceManager setCacheData (Ljava/lang/Object;Ljava/lang/Object;)V 1049 1 2691 0 0
+ciMethod sun/awt/image/SurfaceManager getPrimarySurfaceData ()Lsun/java2d/SurfaceData; 0 0 1 0 -1
+ciMethod sun/awt/SunDisplayChanger add (Lsun/awt/DisplayChangedListener;)V 1921 1 2698 0 0
+ciMethod sun/java2d/d3d/D3DGraphicsDevice isD3DEnabledOnDevice ()Z 233 1 29 0 -1
+ciMethod sun/java2d/d3d/D3DGraphicsDevice getDefaultConfiguration ()Ljava/awt/GraphicsConfiguration; 2049 1 2714 0 0
+ciMethod sun/awt/Win32GraphicsDevice getDefaultConfiguration ()Ljava/awt/GraphicsConfiguration; 0 0 1 0 -1
+ciMethodData java/lang/ref/Reference <init> (Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V 2 10425 orig 264 136 112 69 94 0 0 0 0 136 102 201 22 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 201 61 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 72 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 9 0x10002 0x27b9 0xb0007 0x1662 0x38 0x1157 0x110003 0x1157 0x18 oops 0
+ciMethodData java/lang/ref/ReferenceQueue poll ()Ljava/lang/ref/Reference; 2 9674 orig 264 136 112 69 94 0 0 0 0 88 74 211 22 0 0 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 1 0 0 49 38 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 9 0 2 0 0 0 48 0 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 6 0x40007 0xaab 0x20 0x1a1b 0x110002 0xaab oops 0
+ciMethodData java/lang/ref/ReferenceQueue reallyPoll ()Ljava/lang/ref/Reference; 2 5130 orig 264 136 112 69 94 0 0 0 0 160 73 211 22 0 0 0 0 0 2 0 0 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 73 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 14 0 2 0 0 0 184 0 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 23 0x60007 0x87 0xb8 0x1382 0xf0007 0x1274 0x38 0x10e 0x130003 0x10e 0x18 0x340004 0xffffffffffffec96 0x26452d0 0x6a 0x26453f0 0x18 0x370007 0x136a 0x30 0x18 0x3b0002 0x18 oops 2 13 java/lang/ref/PhantomReference 15 java/lang/ref/Finalizer
+ciMethodData java/util/concurrent/ConcurrentHashMap putVal (Ljava/lang/Object;Ljava/lang/Object;Z)Ljava/lang/Object; 2 3487 orig 264 136 112 69 94 0 0 0 0 32 141 223 22 0 0 0 0 152 6 0 0 128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 27 1 0 0 17 100 0 0 233 86 0 0 0 0 0 0 0 0 0 0 2 0 0 0 2 0 61 0 2 0 0 0 56 5 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 167 0x10007 0x0 0x40 0xc82 0x50007 0xc82 0x30 0x0 0xc0002 0x0 0x110005 0xadd 0x2644260 0x133 0x19a38790 0x72 0x140002 0xc82 0x240007 0xaaa 0x40 0xc82 0x2d0007 0xc82 0x48 0x0 0x310002 0xaaa 0x360003 0xaaa 0x430 0x450002 0xc82 0x4b0007 0xbd 0x78 0xbc5 0x5c0002 0xbc5 0x5f0002 0xbc5 0x620007 0x0 0x3c8 0xbc5 0x650003 0xbc5 0x3c0 0x710007 0xbd 0x68 0x0 0x790005 0x0 0x0 0x0 0x0 0x0 0x7e0003 0x0 0x340 0x8e0002 0xbd 0x930007 0x0 0x290 0xbd 0x980007 0x0 0x180 0xbd 0xa90007 0xc4 0xe8 0x2c 0xb50007 0x0 0x90 0x2c 0xba0007 0x0 0xa8 0x2c 0xc00005 0x0 0x2644260 0x2c 0x0 0x0 0xc30007 0x0 0x58 0x2c 0xce0007 0x2c 0x98 0x0 0xd70003 0x0 0x78 0xe60007 0x33 0x48 0x91 0xf40002 0x91 0xfa0003 0x91 0x30 0x1000003 0x33 0xfffffffffffffed0 0x1030003 0xbd 0x108 0x1080004 0x0 0x0 0x0 0x0 0x0 0x10b0007 0x0 0xc0 0x0 0x1130004 0x0 0x0 0x0 0x0 0x0 0x11a0005 0x0 0x0 0x0 0x0 0x0 0x1200007 0x0 0x40 0x0 0x12b0007 0x0 0x20 0x0 0x1370003 0xbd 0x18 0x1440007 0x0 0x70 0xbd 0x14b0007 0xbd 0x30 0x0 0x1530002 0x0 0x1580007 0x91 0x38 0x2c 0x15e0003 0xaaa 0xfffffffffffffb80 0x1650002 0xc56 oops 3 12 java/lang/String 14 java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry
